@@ -1,0 +1,107 @@
+
+.sidebar{
+    background-color: #929292;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+}
+.sidebar .logo{
+    font-size: 30px;
+    padding: 10px 10px 10px 40px;
+    color: #fff;
+    
+}
+.sidebar .vl {
+    border-left: 10px solid #fff;
+    height: 70px;
+    position: absolute;
+    left: 230px;
+    top: 0;
+    margin-top: 30px;
+}
+.sidebar hr{
+    height: 2px;
+    background-color: aliceblue;
+}
+.sidebar img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin-top: 10px;
+}
+.sidebar a{
+    color: #fff;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    transition: 0.5s;
+}
+.sidebar a:hover{
+    background: #DAE0DA;
+}
+.sidebar span{
+    padding-left: 15px;
+    font-size: 30px;
+}
+.container{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 80%;
+    height: 100vh;
+    background: #EBEAEA;
+    overflow: auto;
+}
+.container h1{
+    color: #8a8888;
+    font-weight: 20;
+}
+.container h2{
+    color: #8a8888;
+    text-align: center;
+}
+.container .daftar{
+    display: flex;
+    padding-left: 150px;
+    flex-wrap: wrap;
+    
+}
+.container .book{
+    margin: 50px;
+    color: rgb(255, 255, 255);
+    background: whitesmoke;
+    height: 250px;
+    width: 200px;
+    box-shadow: 10px 10px gray;
+    
+}
+
+.container .book div{
+    background-color: gray;
+    padding-top: 20px;
+    height: 40px;
+    text-align: center;
+    margin: 20px;
+    ;
+}
+.container .book button{
+    border-radius: 16px;
+    height: 40px;
+    width: 120px;
+    margin-top: 80px;
+    margin-left: 40px;
+    background-color: rgb(73, 119, 117);
+    border: 0;
+    color: white;
+}
+.logout{
+    margin-top: 465px;
+    background-color: red;
+    font-size: 30px;
+}
